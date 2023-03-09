@@ -1,0 +1,19 @@
+<MainScreen>:
+    orientation: 'vertical'
+    padding: 20
+
+    Label:
+        text: 'MQTT App'
+        font_size: '30sp'
+
+    BoxLayout:
+        orientation: 'horizontal'
+        spacing: 10
+
+        Label:
+            text: 'Topic:'
+
+        TextInput:
+            id: topic_input
+            text: root.topic
+            multiline:
